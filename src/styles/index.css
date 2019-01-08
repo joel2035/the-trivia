@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: #1D58E2;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -11,4 +12,76 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.showcase {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.home {
+  font-size: 45px;
+  width: 633px;
+  height: 139px;
+  background-color: #FFF;
+}
+
+.homeContent {
+  font-size: 50px;
+  font-weight: bold;
+  position: relative;
+  top: 39px;
+  text-align: center;
+}
+
+.container {
+  margin-left: 150px;
+  width: 515px;
+}
+
+.items {
+  list-style: none;
+  color: red;
+  text-decoration: none;
+}
+
+.itemsLink {
+  font-size: 30px;
+  color: #FFF;
+  font-weight: bold;
+}
+
+.link {
+  color: #FFF;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.link:hover {
+  color: red;
+  font-size: 35px;
+  transition: 0.3s ease;
+}
+
+.linkContent {
+  position: relative;
+  right: 100px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 50px;
+  margin-left: 100px;
+  top: 39px;
+  position: relative;
+}
+
+.contentTitle {
+  background-color: #FFF;
+  width: 100%;
+  height: 139px;
 }
