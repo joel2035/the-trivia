@@ -8,9 +8,13 @@ const Home = ({ categories }) => (
     {categories.length > 0 && (
       <section>
         {categories.map(category => (
-          <Link to={`/categories/${category.id}`} key={category.id}>
-            {category.title}
-          </Link>
+          <ul>
+            <li>
+              <Link to={`/categories/${category.id}`} key={category.id}>
+              {category.title}
+              </Link>
+            </li>
+          </ul>
         ))}
       </section>
     )}
