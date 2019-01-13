@@ -20,7 +20,7 @@ const Home = ({
       ul className = "items" >
 
       {
-        categories.map(category => ( < li className = "itemsLink" >
+        categories.map(category => ( < li className = "itemsLinnk" >
           <
           Link className = "link"
           to = {
