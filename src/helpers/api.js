@@ -15,7 +15,7 @@ class api {
     return json;
   }
   async getCategories() {
-    const response = await fetch('http://jservice.io/api/categories?count=5');
+    const response = await fetch('http://jservice.io/api/categories?count=100');
     const json = await response.json();
     return json;
   }
