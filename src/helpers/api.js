@@ -1,4 +1,9 @@
 class api {
+  async getCategoryById(id) {
+    const response = await fetch(`http://jservice.io/api/category?id=${id}`);
+    const json = await response.json();
+    return json;
+  }
   async getClues(value) {
     const response = await fetch(`http://jservice.io/api/clues=${value}`)
     const json = await response.json();
@@ -11,11 +16,6 @@ class api {
   }
   async getCategories() {
     const response = await fetch('http://jservice.io/api/categories?count=5');
-    const json = await response.json();
-    return json;  
-  }
-  async getCategoryById(id) {
-    const response = await fetch(`http://jservice.io/api/category?id=${id}`);
     const json = await response.json();
     return json;
   }
